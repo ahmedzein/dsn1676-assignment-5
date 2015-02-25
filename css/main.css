@@ -17,3 +17,11 @@ html {
 *, *::before, *::after {
     box-sizing: inherit;
 }
+
+.bird {
+    background-color: #aaa;
+}
+
+.list {
+    background-color: #ccc;
+}
