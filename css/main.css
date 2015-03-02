@@ -25,3 +25,7 @@ html {
 .list {
     background-color: #ccc;
 }
+
+.js-highlight {
+    color: #eee;
+}

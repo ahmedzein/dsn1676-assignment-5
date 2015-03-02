@@ -1,6 +1,7 @@
 var $form = $('form');
 var $input = $('#list-item');
 var $theTask = $('.task');
+var $currentTask = $('#task');
 
 $form.on('submit', function(eventObject) {
     eventObject.preventDefault();
@@ -11,4 +12,8 @@ $form.on('submit', function(eventObject) {
     $theTask.append($theH1);
     
     $input.val('');
+});
+
+$theTask.on('click', 'h1' , function () {
+   $(this).addClass('js-highlight');
 });
