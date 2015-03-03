@@ -18,14 +18,24 @@ html {
     box-sizing: inherit;
 }
 
-.bird {
+.box {
     background-color: #aaa;
+    margin: 0 auto;
+    border-radius: 1em;
+    max-width: 30em;
+    padding: 1.5rem;
 }
 
 .list {
     background-color: #ccc;
+    text-decoration: none;
 }
 
-.js-highlight {
+.js-done {
     color: #eee;
+    text-decoration: line-through;
+}
+
+.finished {
+    float: right;
 }
