@@ -8,7 +8,7 @@ $form.on('submit', function(eventObject) {
     
     var $theLi = $('<li>').html($input.val());
 
-    var $done =$('<button class="finished">X</button>')
+    var $done =$('<button class="finished">DONE!</button>')
     
 $done.on('click', function () {
     $theLi.remove('li');
